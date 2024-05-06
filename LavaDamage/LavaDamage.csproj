@@ -8,10 +8,4 @@
   <ItemGroup>
     <PackageReference Include="ILRepack.Lib.MSBuild.Task" Version="2.0.18.2" />
   </ItemGroup>
-  <!--<Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="xcopy &quot;$(TargetDir)\$(TargetFileName)&quot; &quot;$(GamePath)\BepInEx\plugins &quot; /q /y /i" />
-  </Target>-->
-  <PropertyGroup>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-  </PropertyGroup>
 </Project>

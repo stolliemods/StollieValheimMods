@@ -53,6 +53,7 @@
     <ManagedDataPath>$(GamePath)\valheim_Data\Managed</ManagedDataPath>
     <PublicizedAssemblies>$(GamePath)\valheim_Data\Managed\publicized_assemblies</PublicizedAssemblies>
     <UnityPath>$(GamePath)\valheim_Data\Managed</UnityPath>
+    <ValheimModdingPath>C:\Dev\Valheim_Modding</ValheimModdingPath>
   </PropertyGroup>
   
   <!-- Set start action -->
@@ -261,6 +262,15 @@
     <Reference Include="UnityEngine.AssetBundleModule">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>$(UnityPath)\UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+
+  <!-- Add Other Mod API references -->
+  <ItemGroup Label="ModAPI">
+    <Reference Include="AzuExtendedPlayerInventory">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(ValheimModdingPath)\AzuExtendedPlayerInventory.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
