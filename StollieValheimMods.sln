@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LavaDamage", "LavaDamage\La
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeathTweaks", "DeathTweaks\DeathTweaks.csproj", "{2F70F802-0FF0-4B94-BBE6-C1449BA819FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keyring", "Keyring\Keyring.csproj", "{843ABCE9-E50F-4460-9E41-55DEFC215D82}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyAndUtilitySlots", "Keyring\KeyAndUtilitySlots.csproj", "{843ABCE9-E50F-4460-9E41-55DEFC215D82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

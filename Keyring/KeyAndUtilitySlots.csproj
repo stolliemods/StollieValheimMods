@@ -63,8 +63,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Keyring.cs" />
+    <Compile Include="KeyAndUtilitySlots.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Thunderstore\CHANGELOG.md" />
+    <None Include="Thunderstore\manifest.json" />
+    <None Include="Thunderstore\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Thunderstore\LICENCE.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

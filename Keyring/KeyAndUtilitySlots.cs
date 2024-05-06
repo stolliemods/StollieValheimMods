@@ -5,13 +5,13 @@ using HarmonyLib;
 using JetBrains.Annotations;
 using AzuExtendedPlayerInventory;
 
-namespace Stollie.Keychain
+namespace Stollie.KeyAndUtilitySlots
 {
-    [BepInPlugin(PluginId, "Keyring", "1.0.0")]
+    [BepInPlugin(PluginId, "KeyAndUtilitySlots", "1.0.0")]
     [BepInDependency("Azumatt.AzuExtendedPlayerInventory", BepInDependency.DependencyFlags.HardDependency)]
     public class MyMod : BaseUnityPlugin
     {
-        public const string PluginId = "stollie.mods.keyring";
+        public const string PluginId = "stollie.mods.keyandutilityslots";
         private Harmony _harmony;
         private static MyMod _instance;
         private static ConfigEntry<bool> _loggingEnabled;

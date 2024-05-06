@@ -1,7 +1,5 @@
 # Description
 
-## Description
-
 Don't like instant death due to Lava? Me either.
 
 This mod allows you to change Player Lava Damage taken. Value can be dynamically changed in Config Manager.
