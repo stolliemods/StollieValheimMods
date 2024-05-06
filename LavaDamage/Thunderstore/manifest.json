@@ -1,0 +1,9 @@
+﻿{
+  "name": "LavaDamage",
+  "version_number": "1.0.2",
+  "website_url": "https://github.com/stolliemods/LavaDamage",
+  "description": "Allows you to change Player Lava Damage. Value can be changed in Config Manager.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2202"
+  ]
+}
